@@ -1,0 +1,24 @@
+.post__button{
+  background:$nickel;
+  color:$white;
+  border-radius: 50px;
+  padding: 0.75rem 1rem;
+
+  &--small{
+    // margin-right: 0.2rem;
+  }
+  &--hover:hover{
+    background: grey;
+    color:white;
+  }
+  &--focus:focus{
+    background: grey;
+    box-shadow:darkblue ;
+  }
+
+}
+@media (max-width:$breakpoint-lg){
+  .post__button--small{
+    // margin-right: 20px;
+  }
+}

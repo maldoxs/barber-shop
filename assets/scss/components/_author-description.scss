@@ -1,0 +1,18 @@
+.author__description{
+  @include center-element-flex;
+  color:$nickel;
+  // margin-left: -51px;
+
+  p {
+    // font-weight: $font-ligth;
+    line-height: 2;
+    font-size: $small;
+  }
+ 
+}
+
+ @media (max-width:$breakpoint-lg){
+    .author__description{
+      display: none;
+    }
+  }

@@ -1,0 +1,32 @@
+header{
+  background:url('/assets/images/post-image.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  min-height: 70vh;
+  @include center-element-flex;
+  flex-direction: column;
+  @include large-breakpoint{
+    min-height: 90vh;
+  }
+
+  h1{
+    color:$white;
+    font-size:$xx-large;
+    font-weight:$font-black;
+    font-style: italic;
+    text-align: center;
+    width: 60%;
+    margin: 6rem 0 9rem 0;
+    @include large-breakpoint{
+      width: 80%;
+      font-size: $x-large;
+    }
+
+  }
+}
+
+.header__icon{
+    color:$white;
+    font-size: $icon-size;
+  }

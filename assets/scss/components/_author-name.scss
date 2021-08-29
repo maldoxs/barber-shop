@@ -1,0 +1,45 @@
+.author__links {
+     padding: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    //  @include large-breakpoint{
+    //    padding-top: 2rem;
+    //     text-align: center;
+    // }
+    // width: 16%;
+    @include large-breakpoint{
+      text-align: center;
+    }
+}
+
+
+.author__name {
+    
+    font-style: italic;
+    font-weight: 900;
+}
+
+.author__list {
+    list-style: none;
+    padding: 0;
+
+    // @include large-breakpoint{
+    //     padding:0px;
+    //     text-align: center;
+    // }
+}
+
+.author__link {
+    text-decoration: none;
+    color: $spanish-pink;
+   
+    &--hover:hover {
+        color:$raisin-black;
+    }
+
+    &--active:active {
+        color: green;
+    }
+}

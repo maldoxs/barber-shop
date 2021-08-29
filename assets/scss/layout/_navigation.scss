@@ -1,0 +1,31 @@
+.navbar{
+  background: $eerie-black;
+  padding: 1.5rem 0;
+  @include large-breakpoint{
+    padding: 1.5rem;
+
+  }
+  
+  &__logo{
+    width: 4.7rem;
+  }
+
+  &__toggler{
+    border:none;
+    
+  }
+  ul{
+    //centramos el nav
+    margin-left: auto;
+  }
+}
+
+//esto puede ir en un reset
+.navbar .navbar__list .navbar__link{
+  color:$white;
+  margin-right: 0.5rem;
+
+  &--active{
+    color:$spanish-pink
+  }
+}
